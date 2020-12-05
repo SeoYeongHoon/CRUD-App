@@ -11,6 +11,8 @@ const MyForm = (props) => {
 
     var [values, setValues] = useState(initialFieldValues)
 
+
+    // componentDidMount 
     useEffect(() => {
         if(props.currentId === '')
             setValues({
